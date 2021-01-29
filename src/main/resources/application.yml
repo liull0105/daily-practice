@@ -1,0 +1,9 @@
+# 数据源配置
+spring:
+  datasource:
+    #Redis配置
+    redis:
+      host: server1.miaoshare.com
+      port: 6379
+      password: ccVYXST2nv2AlVjoSdx3
+      database: 10

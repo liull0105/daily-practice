@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
  *
  * @date: 2021/1/26 17:09
  */
-@Service("assc")
+@Service("acc")
 public class AssembleTestClass {
 
-    public String getInfo() {
+    String getInfo() {
         return "success";
     }
 
