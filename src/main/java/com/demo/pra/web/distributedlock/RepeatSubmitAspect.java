@@ -48,7 +48,8 @@ public class RepeatSubmitAspect {
         Assert.notNull(request, "request can not null");
 
         // 此处可以用token或者JSessionId
-        String token = request.getHeader("Authorization");
+        /*String token = request.getHeader("Authorization");*/
+        String token = "token_test_code";
         String path = request.getServletPath();
         String key = getKey(token, path);
         String clientId = getClientId();
